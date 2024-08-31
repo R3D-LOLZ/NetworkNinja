@@ -1,4 +1,4 @@
-![NetworkNinja ScreenShot](images/Screenshot.png)
+![NetworkNinja ScreenShot](image/Screenshot.png)
 
 # NetworkNinja
 
