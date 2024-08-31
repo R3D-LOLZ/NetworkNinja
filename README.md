@@ -1,3 +1,5 @@
+![NetworkNinja ScreenShot](images/Screenshot.png)
+
 # NetworkNinja
 
 **Version**: 0.1  
