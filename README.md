@@ -41,3 +41,8 @@ This tool is intended for educational purposes only. It should be used to learn 
 ## License
 
 MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+## Connect with me
+
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/r3d_v1)
