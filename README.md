@@ -1,4 +1,4 @@
-![NetworkNinja ScreenShot](images/Screenshot.ng)
+![NetworkNinja ScreenShot](images/Screenshot.png)
 
 # NetworkNinja
 
