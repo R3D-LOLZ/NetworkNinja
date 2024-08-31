@@ -28,8 +28,10 @@ NetworkNinja is a Python tool to scan a local network, identify devices, and per
 
 3. Run the tool:
     ```bash
-    cd NetworkNinja/src/
-    sudo python3 NetworkNinja.py
+    cd NetworkNinja/
+    chmod +x run.py
+    Note: Ensure you have root privileges, as ARP spoofing requires elevated permissions. You need to use `sudo`:
+    sudo python3 run.py
     ```
 
 ## License
