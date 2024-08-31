@@ -7,16 +7,19 @@
 
 ## Overview
 
-NetworkNinja is a Python tool to scan a local network, identify devices, and perform ARP spoofing to disconnect a specific device. 
+NetworkNinja is an advanced Python-based tool designed for network security professionals and penetration testers. The tool enables comprehensive scanning of local networks to identify connected devices and selectively execute ARP spoofing attacks to disrupt network connectivity for specific targets. With a focus on simplicity and effectiveness, NetworkNinja is ideal for both educational purposes and practical applications in network security testing.
+
 
 ## Features
 
-- Scan local networks to detect connected devices.
-- Display IP and MAC addresses.
-- Perform ARP spoofing to disconnect a device.
-## Disclaimer
+- Network Scanning: Efficiently scans the local network (IPv4 range) to identify all connected devices, displaying their IP and MAC addresses for easy selection.
+- ARP Spoofing: Implements ARP spoofing techniques to intercept network traffic and disconnect selected devices from the network, allowing for targeted denial-of-service attacks.
+- Automated ARP Table Restoration: Ensures that ARP tables are automatically restored to their original state after the spoofing attack is terminated, preventing network disruptions.
+- User-Friendly Interface: Offers an interactive, command-line interface for easy operation, with clear prompts and feedback throughout the process.
+  
+## Legal Disclaimer
 
-This tool is intended for educational purposes only. It should be used to learn about network scanning and ARP spoofing techniques in a controlled environment where you have permission to test. Unauthorized use of this tool against networks or devices without permission may be illegal and unethical.
+NetworkNinja is intended solely for educational purposes and lawful security testing. Unauthorized use of this tool on networks you do not own or have explicit permission to test is illegal and unethical. The developers assume no liability for misuse of this tool.
 
 ## Installation
 
@@ -37,6 +40,12 @@ This tool is intended for educational purposes only. It should be used to learn 
     chmod +x run.py
     sudo python3 run.py
     ```
+## Usage
+
+- Scan the Network: Input the desired IP range to scan. The default is 192.168.1.1/24.
+- Select Target: Choose a device from the list of detected devices to initiate ARP spoofing.
+- Perform ARP Spoofing: Monitor the status as ARP spoofing packets are sent to disconnect the target device.
+- Terminate and Restore: Press [CTRL+C] to stop the attack and automatically restore the ARP table for the target device, ensuring network stability.
 
 ## License
 
