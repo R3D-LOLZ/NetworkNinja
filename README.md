@@ -17,7 +17,7 @@ NetworkNinja is a Python tool to scan a local network, identify devices, and per
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/NetworkNinja.git
+    git clone https://github.com/R3D-LOLZ/NetworkNinja.git
     cd NetworkNinja
     ```
 
