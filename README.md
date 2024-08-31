@@ -28,7 +28,8 @@ NetworkNinja is a Python tool to scan a local network, identify devices, and per
 
 3. Run the tool:
     ```bash
-    sudo python src/networkninja.py
+    cd NetworkNinja/src/
+    sudo python3 NetworkNinja.py
     ```
 
 ## License
