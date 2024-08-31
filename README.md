@@ -12,6 +12,9 @@ NetworkNinja is a Python tool to scan a local network, identify devices, and per
 - Scan local networks to detect connected devices.
 - Display IP and MAC addresses.
 - Perform ARP spoofing to disconnect a device.
+## Disclaimer
+
+This tool is intended for educational purposes only. It should be used to learn about network scanning and ARP spoofing techniques in a controlled environment where you have permission to test. Unauthorized use of this tool against networks or devices without permission may be illegal and unethical.
 
 ## Installation
 
