@@ -26,11 +26,10 @@ NetworkNinja is a Python tool to scan a local network, identify devices, and per
     pip install -r requirements.txt
     ```
 
-3. Run the tool:
+3. Run the tool (Ensure you have root privileges, as ARP spoofing requires elevated permissions.):
     ```bash
     cd NetworkNinja/
     chmod +x run.py
-    Note: Ensure you have root privileges, as ARP spoofing requires elevated permissions. You need to use `sudo`:
     sudo python3 run.py
     ```
 
