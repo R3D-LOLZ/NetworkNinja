@@ -26,17 +26,16 @@ NetworkNinja is intended solely for educational purposes and lawful security tes
 1. Clone this repository:
     ```bash
     git clone https://github.com/R3D-LOLZ/NetworkNinja.git
-    cd NetworkNinja
     ```
 
 2. Install dependencies:
     ```bash
+    cd NetworkNinja
     pip install -r requirements.txt
     ```
 
 3. Run the tool (Ensure you have root privileges, as ARP spoofing requires elevated permissions.):
     ```bash
-    cd NetworkNinja/
     chmod +x run.py
     sudo python3 run.py
     ```
